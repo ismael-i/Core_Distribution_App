@@ -1,12 +1,17 @@
 {% extends "layout.html.twig" %}
 
-{% block title slug %}
+{% block title item.AR_Ref %}
 
 {% block body %}
 
 
-	<h1>Bienvenue sur l'article
-		{{slug}}
+	<h1>
+		{{item.AR_Ref}}
 	</h1>
+	<div>{{item.AR_Design}}</div>
+	<div>{{item.AR_Photo}}</div>
+	<div>{{item.AR_PrixVen}}</div>
+	<div>{{item.FA_CodeFamille}}</div>
+
 
 {% endblock %}

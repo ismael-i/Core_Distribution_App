@@ -18,6 +18,6 @@ class StoreModule extends Module
         // $this->renderer = $renderer;
         $renderer->addPath('store', __DIR__ . '/views');
         $router->get($prefix, StoreAction::class, name: 'store.index');
-        $router->get($prefix . '/{slug:[a-z0-9\-]+}', StoreAction::class, name: 'store.show');
+        $router->get($prefix . '/{AR_Ref:[a-zA-Z0-9\-]+}', StoreAction::class, name: 'store.show');
     }
 }

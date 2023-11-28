@@ -14,7 +14,8 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^9.6",
-        "squizlabs/php_codesniffer": "^3.7"
+        "squizlabs/php_codesniffer": "^3.7",
+        "robmorgan/phinx": "^0.14.0"
     },
     "require": {
         "guzzlehttp/psr7": "^2.6",
@@ -22,6 +23,7 @@
         "psr/http-message": "^1.0",
         "zendframework/zend-expressive-fastroute": "^0.3.0",
         "twig/twig": "*",
-        "php-di/php-di": "^5.4"
+        "php-di/php-di": "^5.4",
+        "vlucas/phpdotenv": "^5.6"
     }
 }

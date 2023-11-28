@@ -1,4 +1,2 @@
 <?php
-return [
-    'store.prefix' => '/news',
-];
+return [];
